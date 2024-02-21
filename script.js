@@ -31,3 +31,13 @@ discardBtn.addEventListener("click", () => {
 
 taskForm.addEventListener("submit", (e) => {
   e.preventDefault();
+  if (dataArrIndex === -1) {
+    taskData.unshift(taskObj);
+  }
+
+  taskData.forEach(({id, title, date, description}) => {
+      (tasksContainer.innerHTML += `
+      `)
+    }
+  );
+});
